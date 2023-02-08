@@ -7,6 +7,7 @@ tags: [ClickHouse]
 pin: true
 ---
 
+ClickHouse 的常用函数汇总如下：
 ## 一、算数函数
 
 ```
@@ -1075,3 +1076,5 @@ SELECT lessOrEquals(12,129); -- 1
 SELECT like('a', 'abcd'); -- 0
 SELECT like('a', 'a'); -- 1
 ```
+
+
