@@ -1,5 +1,5 @@
 ---
-title: ClickHouse系列】ClickHouse各类函数用法详解
+title: 【ClickHouse系列】ClickHouse各类函数用法详解
 author: Chen
 date: 2020-09-14 22:04:02 +0800
 categories: [博客, 教程]
@@ -1075,4 +1075,3 @@ SELECT lessOrEquals(12,129); -- 1
 SELECT like('a', 'abcd'); -- 0
 SELECT like('a', 'a'); -- 1
 ```
-
