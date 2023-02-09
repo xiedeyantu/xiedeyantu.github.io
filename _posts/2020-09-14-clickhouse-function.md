@@ -313,9 +313,9 @@ appendTrailingCharIfAbsent('good','c'), -- goodc
 appendTrailingCharIfAbsent('goodccc','c'); -- goodccc
 -- 6.字符串编码转换：convertCharset(s, from, to) 返回从‘from’中的编码转换为‘to’中的编码的字符串‘s’。
 SELECT
-convertCharset('hello', 'UTF8','Unicode'),-- ��h
-convertCharset('hello', 'Unicode', 'UTF8'),-- 桥汬�
-convertCharset('hello', 'Unicode', 'ASCII'),-- 
+convertCharset('hello', 'UTF8','Unicode'),
+convertCharset('hello', 'Unicode', 'UTF8'),
+convertCharset('hello', 'Unicode', 'ASCII'),
 convertCharset('hello', 'ascii', 'ascii'),--hello
 convertCharset('hello', 'UTF8','UTF8');-- hello
 SELECT
